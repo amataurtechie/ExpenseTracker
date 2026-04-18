@@ -8,12 +8,14 @@ View all expenses
 Update expense details
 Delete expenses
 RESTful API design
+
 **🛠️ Tech Stack**
 Java
 Spring Boot
 Spring Data JPA
 H2 / MySQL
 Maven/Gradle
+
 **📌 API Endpoints**
 Method	Endpoint	Description
 POST	/expenses	Add expense
@@ -26,6 +28,7 @@ DELETE	/expenses/{id}	Delete expense
   "amount": 250,
   "date": "2026-04-18"
 }
+
 🎯 **Future Improvements**
 User authentication (JWT)
 Expense categories
